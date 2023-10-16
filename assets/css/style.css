@@ -427,6 +427,7 @@ h6 {
 
 #hero .container {
   padding-top: 80px;
+  margin-left: 150px;
   position: relative;
 }
 
@@ -437,10 +438,10 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0;
+  margin: 1;
   font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
+  font-weight: 1000;
+  line-height: 60px;
   color: #222222;
 }
 
