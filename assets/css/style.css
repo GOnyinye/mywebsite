@@ -469,16 +469,15 @@ h6 {
   }
 } */
 
-@media (max-width: 460px) {
+@media (max-width: 780px) {
   .home {
     position: relative;
   }
   #hero .container {
     padding-top: 58px;
-
   }
   #hero .image {
-    height: 50%;
+    height: 70%;
   }
   #hero .container {
     display: flex;
@@ -487,11 +486,15 @@ h6 {
   }
   #hero .container .description {
     position: absolute;
-    top: 350px;
-    padding-right: 400px;
+    top: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0;
+  }
+  #hero .container .description .btn-about,
+  #hero .container .description .h2s {
+    margin-top: 0;
   }
 }
 
