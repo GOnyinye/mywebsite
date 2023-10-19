@@ -514,7 +514,9 @@ h6 {
   letter-spacing: 1px;
   padding: 12px 20px;
   border-radius: 50px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
